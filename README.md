@@ -26,4 +26,4 @@ To run a sample, open its folder in a terminal and run `python main.py` (`python
 
 The materials in this repository are licensed under [CC BY-NC-SA 4.0](LICENSE). They may be used and adapted for non-commercial purposes only, with attribution.
 
-© Asociația Dalia's Book
+©Dalia's Book
