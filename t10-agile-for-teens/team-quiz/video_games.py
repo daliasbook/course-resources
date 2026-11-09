@@ -1,0 +1,29 @@
+# Video games category: three questions and a score.
+
+
+def play(player_name):
+    print()
+    print("VIDEO GAMES")
+    questions = [
+        "In Minecraft, which item do you need to make a torch, besides coal?",
+        "What color is Pac-Man?",
+        "In Tetris, how many squares make up each piece?",
+    ]
+    answers = [
+        "stick",
+        "yellow",
+        "4",
+    ]
+    score = 0
+
+    for i in range(len(questions)):
+        print(f"Question {i + 1}: {questions[i]}")
+        answer = input("> ").strip().lower()
+        if answer == answers[i]:
+            print("Correct!")
+            score += 1
+        else:
+            print(f"Wrong! The answer was: {answers[i]}")
+
+    print(f"{player_name}, you got {score} out of {len(questions)} in Video games.")
+    return score
